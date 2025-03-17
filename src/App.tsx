@@ -9,6 +9,7 @@ const App: React.FC = () => {
     <>
       <Navbar />
       <Routes>
+        {/* Set ProductListing as the default home page */}
         <Route path="/" element={<ProductListing />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
